@@ -1,5 +1,3 @@
-Student: Drini Kerciku
-Student no: 1004750780
 
 .text
 .global _start
