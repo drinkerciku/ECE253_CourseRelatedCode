@@ -1,3 +1,5 @@
+//Get the sum of every entry in the list without knowing its length
+//The list is terminated at -1
 
 .text
 .global _start
