@@ -1,5 +1,5 @@
-Student: Drini Kerciku
-Student no: 1004750780
+// this code implements a bubble sort algorithm in assembly
+// NOTE: a C code that the assembly follows is provided for clarity
 
 int lt(int x,int y) {
    if(x < y) {
@@ -33,7 +33,7 @@ int bs(int *x,int size, int (*compare)(int x,int y)) {
       for(i=1;i<size;i++) {
          temp1 = x[i];
          temp2 = x[i-1];
-         res = (*compare)(temp1,temp2);
+         res = (*compare)(temp1,temp2);		//function pointer call to make it more generic
          if(res == 0) {
             x[i] = temp2;
             x[i-1] = temp1;
