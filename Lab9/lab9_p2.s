@@ -1,3 +1,6 @@
+// The assembly code implements the use of KEYs and LEDRs to show a pattern in LEDRs present in the FPGA board
+// NOTE: this approach uses polling where we continuously check if an I/O was pressed in the board
+// NOTE: lab10 implements the same functionalities but using interrupts --> more efficient
 .text
 .global _start
 _start:
