@@ -1,3 +1,6 @@
+//Calculate largest number of ones,  largest number of trailing 0s and largest number of leading 0s in an array of words
+//the respective calculations dont have to be part of the same word
+
 .text
 .global start
 start:
@@ -44,7 +47,7 @@ LOOP_1:
   
 ONES: 
 
-	CMP R1, #0 // loop until the data contains no more 1’s
+	CMP R1, #0 // loop until the data contains no more 1â€™s
 	BEQ LOOP_1
 	LSR R4, R1, #1 // perform SHIFT, followed by AND
 	AND R1, R1, R4
@@ -68,7 +71,7 @@ LOOP_2:
   
 LEAD:
 
-	CMP R1, #0 // loop until the data contains no more 1’s
+	CMP R1, #0 // loop until the data contains no more 1â€™s
 	BEQ LOOP_2
 	LSR R1, R1, #1 // perform SHIFT
 	SUB R0, #1 // Subtract from the max # of bits
@@ -91,7 +94,7 @@ LOOP_3:
   
 TRAIL:
 
-	CMP R1, #0 // loop until the data contains no more 1’s
+	CMP R1, #0 // loop until the data contains no more 1â€™s
 	BEQ LOOP_3
 	LSL R1, R1, #1 // perform SHIFT
 	SUB R0, #1 // Subtract from the max # of bits

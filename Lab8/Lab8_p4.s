@@ -1,6 +1,4 @@
-Student: Drini Kerciku
-Student no: 1004750780
-
+//Count the largest number of consecutive ones in an array of words
 .text
 .global start
 start:
