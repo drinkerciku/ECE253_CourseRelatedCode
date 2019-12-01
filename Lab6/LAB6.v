@@ -1,6 +1,4 @@
-Student: Drini Kerciku
-Student no: 1004750780
-Part 1a
+//Part 1a
 module lab6_p1(SW,LEDR,KEY);
 	
 	input [1:0]SW;
@@ -59,8 +57,8 @@ module ff_reg(D,clock,resetn,temp,Q);
 	
 endmodule 
 
-----------------------------------------------
-Part 1b
+//----------------------------------------------
+//Part 1b
 
 module l6p1(SW,LEDR,KEY);
 	
@@ -120,8 +118,8 @@ module ff_reg(D,clock,resetn,temp,Q);
 	
 endmodule 
 
-----------------------------------------------
-Part 2
+//----------------------------------------------
+//Part 2
 module lab6_p2(SW,KEY,LEDR);
 	input [1:0] SW;
 	input [0:0] KEY;
@@ -183,8 +181,8 @@ module lab6_p2(SW,KEY,LEDR);
 	
 endmodule
 
-----------------------------------------------
-Part 3
+//----------------------------------------------
+//Part 3
 module morseDec(SW, KEY, CLOCK_50, LEDR);
 
 	input [2:0]SW;
@@ -290,4 +288,3 @@ module shiftRegister(D, clock, reset, load, Q);
 	assign Q = bits[15];
 
 endmodule
-
