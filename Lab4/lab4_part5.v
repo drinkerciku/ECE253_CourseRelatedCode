@@ -1,4 +1,4 @@
-Part 5
+//Part 5
 
 module l4_p5(SW,HEX0,HEX1,HEX4,HEX5);
 
