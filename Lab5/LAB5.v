@@ -1,7 +1,4 @@
-Student: Drini Kerciku (1004750780)
-LAB5
-
-Part 1
+//Part 1
 
 module l5_p1(D_in,clock,Q);
 
@@ -30,8 +27,8 @@ module l5_p1(D_in,clock,Q);
 	end
 
 endmodule
-----------------------------------------------------
-Part 2
+//----------------------------------------------------
+//Part 2
 
 module l5_p2(SW,LEDR,KEY,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5);
 
@@ -123,8 +120,8 @@ module register_8bit(D,e_input,r_input,Q);
 	end
 
 endmodule
-----------------------------------------------------
-Part 3
+//----------------------------------------------------
+//Part 3
 // 30.0 ALMs
 module l5_p3(SW,KEY,HEX0,HEX1,HEX2,HEX3);
 
@@ -251,8 +248,8 @@ module display_gen(C,Display0);
 	end
 
 endmodule
-----------------------------------------------------
-Part 4
+//----------------------------------------------------
+//Part 4
 // 22.5 ALMs
 module l5_p4(SW,KEY,HEX0,HEX1,HEX2,HEX3);
 
@@ -319,8 +316,8 @@ module display_gen(C,Display0);
 	end
 
 endmodule
-----------------------------------------------------
-Part 5
+//----------------------------------------------------
+//Part 5
  
  module l5_p5(CLOCK_50,HEX0);
 	
@@ -382,8 +379,8 @@ module display_gen(C,Display0);
 		endcase
 		
 endmodule 
-----------------------------------------------------
-Part 6
+//----------------------------------------------------
+//Part 6
 
 module l5_p6(CLOCK_50,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5);
 
