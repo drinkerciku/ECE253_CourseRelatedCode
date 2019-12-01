@@ -1,4 +1,4 @@
-Part2
+//Part2
 
 module l4_p2(SW,LEDR,HEX0,HEX1);
 
