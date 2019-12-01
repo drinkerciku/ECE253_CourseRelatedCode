@@ -1,9 +1,3 @@
-Student: Drini Kerciku
-Student no: 1004750780
-LAB 4
-
-Part1
-
 module l4_p1(SW,HEX0,HEX1);
 	
 	input [9:0]SW;
