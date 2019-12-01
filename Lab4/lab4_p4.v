@@ -1,4 +1,4 @@
-Part 4
+//Part 4
 
 module lab4_p4(SW,LEDR,HEX0,HEX1);
 
