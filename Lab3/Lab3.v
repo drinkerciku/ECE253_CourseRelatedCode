@@ -1,7 +1,4 @@
-Student: Drini Kerciku
-Student no: 1004750780
-
-PART 4
+//PART 4
 module part4(SW,HEX0);
 	input [9:0]SW;
 	output [6:0]HEX0;
@@ -17,7 +14,7 @@ module part4(SW,HEX0);
 	assign HEX0[6] = c[0]&c[1];
 endmodule
 
-PART 5
+//PART 5
 module part5(SW,LEDR,HEX0,HEX1,HEX2);
 	input [9:0]SW;
 	output [9:0]LEDR;
